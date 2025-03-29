@@ -3729,7 +3729,42 @@ input, select, textarea {
 		.contact-method {
 		    padding-left: 3.25em; /* Ensure there's enough padding for the icons and labels */
 		}
-
+			* Ensure form input fields take up full space */
+		.contact-form input, .contact-form textarea {
+		    width: 100%; 
+		    max-width: 100%; 
+		}
+		
+		/* Contact method layout */
+		.contact-method {
+		    margin: 0 0 2em 0;
+		    padding-left: 3.25em;
+		    position: relative;
+		}
+		
+		/* Button and Field Adjustment for Better Alignment */
+		input[type="submit"].fit, button.fit {
+		    width: 100%;
+		}
+		
+		input[type="submit"].small, button.small {
+		    font-size: 0.8em;
+		}
+		
+		input[type="submit"].large, button.large {
+		    font-size: 1.25em;
+		    height: 3em;
+		}
+		
+		/* Section Layout for Contact */
+		#contact > .inner {
+		    display: flex;
+		    flex-wrap: wrap;
+		    padding: 2em;
+		    box-sizing: border-box;
+		    max-width: 700px; /* Limit the width of the form */
+		    margin: 0 auto;
+		}
 
 
 /* Footer */
