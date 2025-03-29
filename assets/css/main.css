@@ -3950,3 +3950,11 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+#menu {
+	filter: none !important;
+	-webkit-filter: none !important;
+	backdrop-filter: none !important;
+	z-index: 10002;
+	position: fixed;
+}
