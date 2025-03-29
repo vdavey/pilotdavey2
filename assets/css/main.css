@@ -1366,7 +1366,7 @@ input, select, textarea {
 					margin-left: 50%;
 				}
 
-				.row > .col-7-small {
+				#.row > .col-7-small {
 					width: 58.33333%;
 				}
 
@@ -3704,6 +3704,33 @@ input, select, textarea {
 			}
 
 		}
+		/* Add padding to the contact section container */
+		#contact > .inner {
+		    padding: 2em; /* Add padding to the inner container */
+		    box-sizing: border-box; /* Ensure padding is included in the layout */
+		}
+		
+		/* Limit width of the form */
+		#contact .fields {
+		    margin: 0 auto;
+		    max-width: 700px; /* Limit the width of the form */
+		}
+		
+		/* Form fields padding and margins */
+		.contact-form input,
+		.contact-form textarea {
+		    padding: 10px;
+		    margin-bottom: 20px;
+		    width: 100%;
+		    max-width: 500px; /* Optional: Set a max width for the inputs */
+		}
+		
+		/* Contact method padding for icons and labels */
+		.contact-method {
+		    padding-left: 3.25em; /* Ensure there's enough padding for the icons and labels */
+		}
+
+
 
 /* Footer */
 
