@@ -3970,13 +3970,3 @@ input, select, textarea {
 	z-index: 10002;
 	position: fixed;
 }
-
-.icons a {
-  transition: transform 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.icons a:hover {
-  color: #00d4ff;
-  transform: scale(1.2);
-  box-shadow: 0 0 12px rgba(0, 212, 255, 0.6);
-}
